@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Text } from 'react-native';
 
-import { MaterialIcons, EvilIcons } from '@expo/vector-icons';
+import { MaterialIcons, EvilIcons, Octicons } from '@expo/vector-icons';
 
 import { 
     Container, 
@@ -28,7 +28,42 @@ const tweets = [
         user: '@_Candin',
         avatar: avatar,
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
-    }
+    },
+    {
+        key: 2,
+        name: 'Candin',
+        user: '@_Candin',
+        avatar: avatar,
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
+    },
+    {
+        key: 3,
+        name: 'Candin',
+        user: '@_Candin',
+        avatar: avatar,
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
+    },
+    {
+        key: 4,
+        name: 'Candin',
+        user: '@_Candin',
+        avatar: avatar,
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
+    },
+    {
+        key: 5,
+        name: 'Candin',
+        user: '@_Candin',
+        avatar: avatar,
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
+    },
+    {
+        key: 6,
+        name: 'Candin',
+        user: '@_Candin',
+        avatar: avatar,
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dignissim tempor rutrum. Integer non turpis dui. Sed nec quam sed lectus imperdiet condimentum a a quam'
+    },
 ];
 
 export default function Tweets() {
