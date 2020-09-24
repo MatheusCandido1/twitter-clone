@@ -41,6 +41,7 @@ export default function Navigation() {
             showLabel: false
         })}
 
+
         tabBarOptions={{
             style: {
                 backgroundColor : '#14171A',
