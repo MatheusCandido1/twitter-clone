@@ -12,3 +12,9 @@ export const ContainerFleets = styled.View`
     border-color: #657786;
 `;
 
+export const ContainerTweets = styled.ScrollView`
+
+`;
+
+
+

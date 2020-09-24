@@ -1,9 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-import { Container, ContainerFleets } from './styles';
+import { Container, ContainerFleets, ContainerTweets } from './styles';
 
 import Fleets from '../../components/Fleets';
+import Tweets from '../../components/Tweets';
 
 export default function Home() {
     return(
@@ -11,6 +12,9 @@ export default function Home() {
             <ContainerFleets>
                 <Fleets />
             </ContainerFleets>
+            <ContainerTweets>
+                <Tweets />
+            </ContainerTweets>
         </Container>
     );
 }
