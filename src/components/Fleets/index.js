@@ -13,37 +13,44 @@ const items = [
     {
         key: 1,
         img: img1,
-        label: '@_candin'
+        label: '@_candin',
+        isNew: false
     },
     {
         key: 2,
         img: img2,
-        label: '@_victin'
+        label: '@_victin',
+        isNew: true
     },
     {
         key: 3,
         img: img3,
-        label: '@_souza'
+        label: '@_souza',
+        isNew: true
     },
     {
         key: 4,
         img: img4,
-        label: '@carlos'
+        label: '@carlos',
+        isNew: true
     },
     {
         key: 5,
         img: img5,
-        label: '@gerson'
+        label: '@gerson',
+        isNew: true
     },
     {
         key: 6,
         img: img6,
-        label: '@fernanda'
+        label: '@fernanda',
+        isNew: true
     },
     {
         key: 7,
         img: img7,
-        label: '@zeze'
+        label: '@zeze',
+        isNew: true
     },
 ];
 
@@ -52,8 +59,8 @@ export default function Fleets() {
     return(
         <Container>
             {items.map((item) => (
-                <Fleet key={item.key}>
-                    <Icon source={item.img} />
+                <Fleet key={item.key} >
+                    <Icon source={item.img} isNew={item.isNew}/>
                     <Label>{item.label}</Label>
                 </Fleet>
             ))}

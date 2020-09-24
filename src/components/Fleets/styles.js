@@ -17,7 +17,7 @@ export const Fleet = styled.TouchableOpacity`
 `;
 
 export const Icon = styled.Image`
-    border:4px solid  #FFF;
+    border:4px solid  ${({ isNew }) => !isNew ? '#FFF':'#1DA1F2'};
     border-radius: 32px;
     height: 64px;
     width: 64px;
